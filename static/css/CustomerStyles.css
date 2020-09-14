@@ -1,0 +1,229 @@
+.body-color{
+	background: url("/static/images/bg.png");
+	background-repeat: repeat;
+  	background-attachment: fixed;
+}
+.registration-body-left{
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	height: 300px;
+	width: 700px;
+}
+.form-control {
+	height: 30px;
+	width: 100%;
+	box-shadow: none;
+	color: #969fa4;
+}
+.form-control:focus {
+	border-color: #5cb85c;
+}
+.form-control, .btn {        
+	border-radius: 3px;
+}
+.signup-form {
+	width: 600px;
+	margin: 400px;
+	margin-top: 25px;
+	padding: 30px 0;
+  	font-size: 15px;
+}
+.signup-form h2 {
+	color: white;
+	margin: 0 0 15px;
+	position: relative;
+	text-align: center;
+}
+.signup-form h2:before, .signup-form h2:after {
+	content: "";
+	height: 2px;
+	width: 30%;
+	background: red;
+	position: absolute;
+	top: 50%;
+	z-index: 2;
+}	
+.signup-form h2:before {
+	left: 0;
+}
+.signup-form h2:after {
+	right: 0;
+}
+.signup-form .hint-text {
+	color: #999;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.signup-form form {
+	color: white;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: #2A2C32;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.signup-form .form-group {
+	margin-bottom: 8px;
+}
+.signup-form input[type="checkbox"] {
+	margin-top: 3px;
+}
+.signup-form .btn {        
+	font-size: 16px;
+	font-weight: bold;		
+	min-width: 140px;
+	outline: none !important;
+}
+.signup-form .row div:first-child {
+	padding-right: 10px;
+}
+.signup-form .row div:last-child {
+	padding-left: 10px;
+}    	
+.signup-form a {
+	color: red;
+	text-decoration: underline;
+}
+.signup-form a:hover {
+	text-decoration: none;
+}
+.signup-form form a {
+	color: #5cb85c;
+	text-decoration: none;
+}	
+.signup-form form a:hover {
+	text-decoration: underline;
+}
+table.a{
+	table-layout: auto;
+	width:100%;
+}
+select.a{
+	height: 30px;
+	width:65%;
+	border-radius: 3px;
+}
+
+.registration-body-right{
+	margin-top:200px;
+	float: right; 
+	height: 300px;
+	width: 300px;
+	background: red;
+	margin-right: 300px;
+	border-style: dashed;
+}
+
+.quotes h1{
+	font-style: italic;
+}
+
+div.back-button{
+	float:left;
+	margin-top: 25px;
+	margin-left: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+
+div.for-output-img{
+	margin:15px;
+	width:300px;
+	height:260px;
+	background:url('images/img-prev.png');
+	border-style: solid;
+}
+
+#output_image
+{
+ max-width:300px;
+ max-height:250px;
+}
+
+#wrapper
+{
+ text-align:center;
+ margin:0 auto;
+ padding:0px;
+}
+
+div.list-of-casts{
+	width:100%;
+	height:150px;
+	overflow-y: scroll;
+	background: white;
+	color: black;
+}
+
+/* THIS IS FOR THE MODAL */
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+	position: relative;
+	background-color: #fefefe;
+	margin: auto;
+	padding: 0;
+	border: 1px solid #888;
+	width: 70%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 0.4s;
+	animation-name: animatetop;
+	animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+	from {top:-300px; opacity:0} 
+	to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+	from {top:-300px; opacity:0}
+	to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+	color: #ffffff;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	cursor: pointer;
+  }
+  
+  .modal-header {
+	padding: 2px 16px;
+	background-color: #2b312b;
+	color: white;
+	float: left;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+  .modal-footer {
+	padding: 2px 16px;
+	background-color: #2b312b;
+	color: white;
+  }
+
+/* MODAL ENDS HERE */
